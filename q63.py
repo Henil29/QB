@@ -7,7 +7,7 @@ temp=1
 
 if(a>=1 and n==1):
     print("x=0")
-elif n<a or  a==1:
+elif n>a and  a==1:
     print("No solution exists")
 else:
     while temp<n:
