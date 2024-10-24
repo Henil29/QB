@@ -8,7 +8,7 @@ gp=0
 ap=0
 tex=0
 if(grade=="a" or grade=="A"):
-    bp=60000 #change for every city grade
+    bp=60000
     oa=8000
     
     tier=int(input("Enter tier of your city (1,2,3): "))
@@ -30,7 +30,7 @@ if(grade=="a" or grade=="A"):
     print(f"Annual Pay of an Employee is: {ap}")   
     
 if(grade=="b" or grade=="B"):
-    bp=50000 #change for every city grade
+    bp=50000
     oa=7000
     
     tier=int(input("Enter tier of your city (1,2,3): "))
@@ -52,7 +52,7 @@ if(grade=="b" or grade=="B"):
     print(f"Annual Pay of an Employee is: {ap}")   
 
 if(grade=="c" or grade=="C"):
-    bp=40000 #change for every city grade
+    bp=40000
     oa=6000
     
     tier=int(input("Enter tier of your city (1,2,3): "))
@@ -74,7 +74,7 @@ if(grade=="c" or grade=="C"):
     print(f"Annual Pay of an Employee is: {ap}")
     
 if(grade=="d" or grade=="D"):
-    bp=30000 #change for every city grade
+    bp=30000
     oa=5000
     
     tier=int(input("Enter tier of your city (1,2,3): "))
@@ -96,7 +96,7 @@ if(grade=="d" or grade=="D"):
     print(f"Annual Pay of an Employee is: {ap}")   
     
 if(grade=="e" or grade=="E"):
-    bp=20000 #change for every city grade
+    bp=20000
     oa=4000
     
     tier=int(input("Enter tier of your city (1,2,3): "))
@@ -118,7 +118,7 @@ if(grade=="e" or grade=="E"):
     print(f"Annual Pay of an Employee is: {ap}")   
     
 if(grade=="f" or grade=="F"):
-    bp=10000 #change for every city grade
+    bp=10000
     oa=3000
     
     tier=int(input("Enter tier of your city (1,2,3): "))
