@@ -10,134 +10,45 @@ tex=0
 if(grade=="a" or grade=="A"):
     bp=60000
     oa=8000
-    
-    tier=int(input("Enter tier of your city (1,2,3): "))
-    
-    if(tier==1):
-        hra=0.3*bp
-    elif(tier==2):
-        hra=0.2*bp
-    elif(tier==3):
-        hra=0.1*bp
-        
-    dra=0.5*bp
-    pf=0.11*bp
-    
-    gp=bp+hra+dra+oa+ta-pt-pf
-    print(f"Gross Pay of an Employee is: {gp}")
-    
-    ap=gp*12
-    print(f"Annual Pay of an Employee is: {ap}")   
-    
-if(grade=="b" or grade=="B"):
+       
+elif(grade=="b" or grade=="B"):
     bp=50000
     oa=7000
-    
-    tier=int(input("Enter tier of your city (1,2,3): "))
-    
-    if(tier==1):
-        hra=0.3*bp
-    elif(tier==2):
-        hra=0.2*bp
-    elif(tier==3):
-        hra=0.1*bp
-        
-    dra=0.5*bp
-    pf=0.11*bp
-    
-    gp=bp+hra+dra+oa+ta-pt-pf
-    print(f"Gross Pay of an Employee is: {gp}")
-    
-    ap=gp*12
-    print(f"Annual Pay of an Employee is: {ap}")   
 
-if(grade=="c" or grade=="C"):
+elif(grade=="c" or grade=="C"):
     bp=40000
     oa=6000
     
-    tier=int(input("Enter tier of your city (1,2,3): "))
-    
-    if(tier==1):
-        hra=0.3*bp
-    elif(tier==2):
-        hra=0.2*bp
-    elif(tier==3):
-        hra=0.1*bp
-        
-    dra=0.5*bp
-    pf=0.11*bp
-    
-    gp=bp+hra+dra+oa+ta-pt-pf
-    print(f"Gross Pay of an Employee is: {gp}")
-    
-    ap=gp*12
-    print(f"Annual Pay of an Employee is: {ap}")
-    
-if(grade=="d" or grade=="D"):
+elif(grade=="d" or grade=="D"):
     bp=30000
-    oa=5000
+    oa=5000  
     
-    tier=int(input("Enter tier of your city (1,2,3): "))
-    
-    if(tier==1):
-        hra=0.3*bp
-    elif(tier==2):
-        hra=0.2*bp
-    elif(tier==3):
-        hra=0.1*bp
-        
-    dra=0.5*bp
-    pf=0.11*bp
-    
-    gp=bp+hra+dra+oa+ta-pt-pf
-    print(f"Gross Pay of an Employee is: {gp}")
-    
-    ap=gp*12
-    print(f"Annual Pay of an Employee is: {ap}")   
-    
-if(grade=="e" or grade=="E"):
+elif(grade=="e" or grade=="E"):
     bp=20000
-    oa=4000
+    oa=4000   
     
-    tier=int(input("Enter tier of your city (1,2,3): "))
-    
-    if(tier==1):
-        hra=0.3*bp
-    elif(tier==2):
-        hra=0.2*bp
-    elif(tier==3):
-        hra=0.1*bp
-        
-    dra=0.5*bp
-    pf=0.11*bp
-    
-    gp=bp+hra+dra+oa+ta-pt-pf
-    print(f"Gross Pay of an Employee is: {gp}")
-    
-    ap=gp*12
-    print(f"Annual Pay of an Employee is: {ap}")   
-    
-if(grade=="f" or grade=="F"):
+elif(grade=="f" or grade=="F"):
     bp=10000
     oa=3000
     
-    tier=int(input("Enter tier of your city (1,2,3): "))
+tier=int(input("Enter tier of your city (1,2,3): "))
     
-    if(tier==1):
-        hra=0.3*bp
-    elif(tier==2):
-        hra=0.2*bp
-    elif(tier==3):
-        hra=0.1*bp
-        
-    dra=0.5*bp
-    pf=0.11*bp
+if(tier==1):
+    hra=0.3*bp
+elif(tier==2):
+    hra=0.2*bp
+elif(tier==3):
+    hra=0.1*bp
     
-    gp=bp+hra+dra+oa+ta-pt-pf
-    print(f"Gross Pay of an Employee is: {gp}")
-    
-    ap=gp*12
-    print(f"Annual Pay of an Employee is: {ap}")
+dra=0.5*bp
+pf=0.11*bp
+
+gp=bp+hra+dra+oa+ta-pt-pf
+print(f"Gross Pay of an Employee is: {gp}")
+
+ap=gp*12
+print(f"Annual Pay of an Employee is: {ap}")
+
 
 if(ap<=250000):
         tex=0
